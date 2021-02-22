@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SessionSelect">
+
+    <TextView
+        android:id="@+id/sessionHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Select session properties"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/categoryHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select category:"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        android:layout_margin="30dp"
+        android:layout_below="@+id/sessionHeader"/>
+
+    <Spinner
+        android:id="@+id/catagorySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/categoryHeader"
+        android:layout_margin="30dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/difficultyHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select difficult level:"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        android:layout_margin="30dp"
+        android:layout_below="@+id/catagorySpinner"/>
+
+    <Spinner
+        android:id="@+id/difficultySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/difficultyHeader"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/startSession_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_below="@id/difficultySpinner"
+        android:layout_centerInParent="true"
+        android:backgroundTint="#EF4C4C"
+        android:layout_margin="30dp" />
+
+
+</RelativeLayout>
