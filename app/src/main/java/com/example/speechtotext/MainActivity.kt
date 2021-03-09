@@ -97,5 +97,5 @@ class MainActivity : AppCompatActivity() {
         for (t in tabs)
             tabsDao.insert(t)
     }
-
+//amit hagever
 }
