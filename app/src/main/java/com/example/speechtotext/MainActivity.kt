@@ -97,6 +97,5 @@ class MainActivity : AppCompatActivity() {
         for (t in tabs)
             tabsDao.insert(t)
     }
-    /*euwfhjewnfjkewnjkfnckldsnckjasdnvlkjfdnvjkfnvjkan;knfaknvj;nvao*/
 
 }
